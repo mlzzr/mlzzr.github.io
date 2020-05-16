@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Paul Goldsmith-Pinkham by paulgp</title>
+    <title>Yucheng Liang</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -12,39 +12,187 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-65546321-1', 'auto');
-      ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-65546321-1', 'auto');
+        ga('send', 'pageview');
     </script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Paul Goldsmith-Pinkham</h1>
-        <p>Research Economist</p>
-        <h3><p class="view"><a href="https://paulgp.github.io/">Home</a></p></h3>
-        <h3><p class="view"><a href="https://paulgp.github.io/papers.html">Papers</a></p></h3>
-	<h3><p class="view"><a href="https://paulgp.github.io/blog.html">Blog</a></p></h3>
-	<h3><p class="view"><a href="https://paulgp.github.io/best_figures.html">Best Figures</a></p></h3>		
-	<h3><p class="view"><a href="https://paulgp.github.io/papers/cv.pdf">CV</a></p></h3>
-	<h3><p class="view"><a href="https://paulgp.github.io/beamer_tips.html">Beamer Tips</a></p></h3>
-	<h3><p class="view"><a href="https://paulgp.github.io/GoogleTrendsUINowcast/google_trends_UI.html">Google Trends UI Forecast</a></p></h3>	
-	<p class="view"><img src="circle_cropped.png" width=270 height=270></p>
-	<p>I am an assistant professor at the Yale School of Management. If you need to reach me, please email me at paul.goldsmith-pinkham at yale dot edu. </p>
-      </header>
-      <section>
-        <h3><a id="updates" class="anchor" href="#updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Updates:</h3>
-	<p> I just posted a new draft of <a href="https://paulgp.github.io/papers/ggls_munis_5_08.pdf">"Sea Level Rise and Municipal Bond Yields,"</a> with Matt Gustafson, Ryan Lewis and Mike Schwert.</p>
-	<p> I just posted a new draft of my paper with Kelly Shue, <a href="https://paulgp.github.io/papers/Gender_Gap_in_Housing_Returns.pdf">"The Gender Gap in Housing Returns."</a></p> 	
-	<p> The <a href="https://paulgp.github.io/papers/bartik_gpss.pdf">Bartik paper</a> with Sorkin and Swift was just accepted at the American Economic Review. I've also created a repo with the <a href="https://github.com/paulgp/bartik-weight">Stata code necessary</a> to create the Rotemberg weights we describe in the paper. Please try it out and give feedback!</p>
-	<p> I have a new paper, <a href="https://paulgp.github.io/papers/GPW_compressed.pdf">"Medicare and the Geography of Financial Health"</a> with Maxim Pinkovskiy and Jacob Wallace.</p>	
-	<p> I just posted and submitted the revised version of <a href="https://paulgp.github.io/papers/Heterogeneous_Real_Estate_Agents_and_the_Housing_Cycle.pdf">"Heterogeneous Real Estate Agents and the Housing Cycle,"</a> with Sonia Gilbukh.</p>
-      </section>
+    <style>
+        button.accordion {
+            font:14px/1.5 Lato;
+            cursor: pointer;
+            padding: 0px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 100%;
+            transition: 0.4s;
+            background-color: #ffffff;
+        }
+        button.accordion.active, button.accordion:hover {
+            background-color: #ffffff;
+        }
+        button.accordion:after {
+            content: '[+]';
+            font-size: 90%;
+            color:#777;
+            float: left;
+            margin-left: 1px;
+        }
+
+
+        button.accordion.active:after {
+            content: "[\2212]";
+        }
+        div.panel {
+            /*padding: 0 20px;*/
+            margin-top: 5px;
+            display: none;
+            background-color: white;
+            font-size: 100%;
+        }
+        div.panel.show {
+            display: block !important;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Yucheng Liang</h1>
+        <p>PhD Candidate in Economics</p>
+        <p>Stanford Graduate School of Business</p>
+        <hr>
+        <h3><p class="view"><a href="./#bio">Bio</a></p></h3>
+        <h3><p class="view"><a href="./#publications">Publications</a></p></h3>
+        <h3><p class="view"><a href="./#workingpapers">Working Papers</a></p></h3>
+        <h3><p class="view"><a href="./#workinprogress">Work-in-Progress</a></p></h3>
+        <h3><p class="view"><a href="./#teaching">Teaching</a></p></h3>
+        <p class="view"><img src="Photo_Liang_Yucheng.jpg" width=260 height=260></p>
+    </header>
+    <section>
+        <h2 id="bio">Bio</h2>
+
+        <p>I am a PhD candidate in Economics at the Stanford Graduate School of Business. I will join briq (Bonn) as a postdoctoral fellow in 2020 and Carnegie Mellon University as an assistant professor in 2021.</p>
+
+        <p>I use theoretical and empirical methods to study the foundations and applications of behavioral economics. </p>
+
+
+        <p><strong><a href="./CV_Liang_Yucheng.pdf">Curriculum Vitae</a></strong> (Updated Apr 2020)</p>
+
+        <p><strong>Email</strong>: <a href="mailto:ycliang@stanford.edu">ycliang@stanford.edu</a><br />
+            <!--<strong>Tel</strong>: +1 (857) 998-4505<br />-->
+            <!--<strong>Address</strong>:<br />-->
+            <!--Department of Economics<br />-->
+            <!--Littauer Center M-30, Harvard University<br />-->
+            <!--Cambridge, MA 02138<br />-->
+            <!--U.S.A.</p>-->
+
+        <hr>
+
+        <h2 id="workingpapers">Working Papers</h2>
+
+        <h3 style="margin:20px 0 5px;"><a style="margin:0; font-size:100%; font-weight:bold" href="./lfuis/lfuis.pdf" target="blank">
+            Learning from Unknown Information Sources
+        </a></h3>
+        <p style="margin:0 0 5px;"><em>
+            Current version: March 2020
+        </em></p>
+        <p style="margin:0 0 5px;" }> <button class="accordion">
+        Abstract
+    </button>
+
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+        When an agent receives information generated by a source whose accuracy might either be high or low, standard economic theory dictates that she update as if the source has medium accuracy. In a lab experiment, I find that subjects' updating behaviors deviate from this benchmark. First, subjects under-react to information when the source is uncertain. Second, the under-reaction is more pronounced for good news than for bad news. These two patterns, <i>under-reaction</i> and <i>pessimism</i>, are consistent with a theory of belief updating where agents are insensitive and averse to compound uncertainty and ambiguity. I also find that subjects' reactions to information with uncertain accuracy are uncorrelated with their evaluations of bets with uncertain odds. This suggests that people have distinct attitudes toward uncertainty in information accuracy and uncertainty in economic fundamentals. The experimental results are validated using observational data on stock price reactions to analyst earnings forecasts, where analysts with no forecast records are classified as uncertain information sources.e distinct attitudes toward uncertainty in fundamentals and uncertainty in information accuracy.
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+        <p style="margin:0 0 5px;"><a href="./lfuis/Instructions_LFUIS.pdf" target="blank">Experimental Instructions</a></p>
+        </p>
+
+
+        <!--<h3 style="margin:20px 0 5px;"><a style="margin:0; font-size:100%; font-weight:bold" href="./pdf/GenderGenerosityAERPP2013Final.pdf" target="blank">-->
+            <!--The Importance of Being Marginal: Gender Differences in Generosity-->
+        <!--</a></h3>-->
+        <!--<p style="margin:0 0 5px;">-->
+            <!--(with Stefano DellaVigna, John List and Ulrike Malmendier)-->
+        <!--</p>-->
+        <!--<p style="margin:0 0 5px;"><em>-->
+            <!--American Economic Review Papers and Proceedings, May 2013-->
+        <!--</em></p>-->
+        <!--<p style="margin:0 0 5px;"><a href="javascript:toggle(0)">Abstract-->
+            <!--<span id="pubabslink_0"> (click to expand)</span></a><span id="pubabs_0" style="display:none;">: -->
+            <!--Do men and women have different social preferences? Previous findings -->
+            <!--</span>-->
+        <!--</p>-->
+
+        <!--<p style="margin:0 0 5px;"><a href="./pdf/GenderGenerosityAERP&amp;P2013OnlineApp.pdf" target="blank">Online Appendix</a></li>-->
+
+        <!--<p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3072038">Predictably Unequal? The Effects of Machine Learning on Credit Markets </a>  <br> with Andreas Fuster, Tarun Ramadorai and Ansgar Walther (<b> Revise and Resubmit at Journal of Finance </b>)) <button class="accordion">-->
+        <!--Abstract-->
+    <!--</button>-->
+    <!--</p>-->
+        <!--<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Recent innovations in statistical technology, -->
+        <!--</div>-->
+        <!--<ul class="bullets">-->
+            <!--<li> Wharton School - WRDS award for the Best Empirical Finance Paper, WFA 2019 </li>-->
+        <!--</ul>-->
+        <!--</p>-->
+
+<hr>
+        <h2 id="workinprogress">Work in Progress</h2>
+        <h3 style="margin:20px 0 5px;"><a style="margin:0; font-size:100%; font-weight:bold">
+            Truth-Telling and the Design of Flexible Commitment Contracts: A Field Experiment
+        </a></h3>
+        <p style="margin:0 0 5px;">
+            with Shengmao Cao and Tony Fan
+        </p>
+
+        <p style="margin:0 0 5px;" }> <button class="accordion">
+        Abstract
+    </button>
+
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+            We propose a novel commitment contract (CC) with exemption clauses to provide incentives for physical exercise while retaining flexibility. Like a traditional, rigid CC, some money is deposited into an account (by the participant or by a third party) and the participant is allowed to withdraw the money if she attends the gym. Unlike a rigid CC, if a participant reports that she did not go to the gym because of illnesses, injuries, unanticipated obligations, or other pre-specified conditions, she is allowed to withdraw the deposit as well. The participants' reports are not verified, so the effectiveness of such a CC depends on the participants' aversion to lying. We conduct a field experiment at the Stanford athletic facilities to evaluate the demand for and the effectiveness of a CC with exemptions, in comparison to a rigid CC and a control contract without incentives.
+        </div>
+        <em>
+            Status: pilot completed
+        </em>
+        </p>
+
+
+
+    </section>
+</div>
+<script src="javascripts/scale.fix.js"></script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+        }
+    }
+</script>
+    <script>
+		function toggle(pid) {
+            objid = "pubabs_" + pid.toString();
+            linkid = "pubabslink_" + pid.toString();
+            absobj = document.getElementById(objid);
+            linkobj = document.getElementById(linkid);
+			if (absobj.style.display === "none") {
+				absobj.style.display = "inline";
+                linkobj.style.display = "none";
+			}
+			else {
+				absobj.style.display = "none";
+                linkobj.style.display = "inline";
+            }
+		}
+	</script>
+
+</body>
 </html>
